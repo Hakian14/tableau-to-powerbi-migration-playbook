@@ -58,7 +58,7 @@ guide's checklist as the exit criterion for the phase. The DAX mapping table in
 
 Related repositories that show the Power BI side in practice:
 [omnichannel-retail-powerbi](https://github.com/Hakian14/omnichannel-retail-powerbi) (star schema,
-56 DAX measures, performance notes).
+54 DAX measures, performance notes).
 
 ## About
 
