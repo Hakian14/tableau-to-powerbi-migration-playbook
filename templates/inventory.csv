@@ -1,0 +1,5 @@
+workbook,project,owner,views_90d,distinct_users_90d,data_sources,extract_or_live,blends,custom_sql,n_sheets,n_dashboards,n_calc_fields,n_lod,n_table_calcs,n_parameters,n_sets,dashboard_actions,rls,refresh_schedule,complexity_score,class,decision,target_model,migration_order,notes
+Sales Overview,Sales,Linh Tran,412,38,3,extract,1,0,14,2,46,6,4,2,1,5,no,daily 06:00,11,Complex,migrate,sales,2,"Blend between orders and targets -> dim_month bridge"
+Store Scorecard,Retail Ops,Hoa Pham,265,22,2,extract,0,1,9,1,28,2,6,1,0,3,yes,daily 06:00,10,Medium,migrate,sales,1,"Custom SQL for footfall join -> pre-aggregate upstream; RLS by region"
+Inventory Aging,Supply,Duc Nguyen,88,9,1,live,0,0,6,1,15,3,1,0,0,1,no,live,7,Medium,migrate,inventory,3,"Snapshot fact; semi-additive measures"
+Marketing Funnel,Marketing,Minh Le,0,0,2,extract,1,0,8,1,22,1,2,1,0,2,no,weekly,8,Medium,retire,,,"Zero views in 90 days; owner agreed to retire 2025-03"

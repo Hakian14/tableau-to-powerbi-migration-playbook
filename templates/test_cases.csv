@@ -1,0 +1,10 @@
+dashboard,page_or_sheet,kpi,filter_state,filter_description,tableau_value,powerbi_value,tolerance,status,explanation,tested_by,tested_on
+Sales Overview,Executive,Net Sales,none,,118171760000,118171760000,0,match,,,
+Sales Overview,Executive,Net Sales,single,Region = North,41262360000,41262360000,0,match,,,
+Sales Overview,Executive,Net Sales,edge,"Month = 2025-11, Store = Bien Hoa (opened 2025-03)",1183000000,1183000000,0,match,,,
+Sales Overview,Executive,Gross Margin %,none,,56.0,56.0,0.1,match,,,
+Sales Overview,Executive,Same-Store Sales Growth %,none,,5.1,5.3,0.1,explained,"Tableau included Vinh (opened Aug-2024) as comparable; new definition requires 12 full months. Approved by Hoa Pham 2025-04-02",,
+Store Scorecard,Stores,Conversion Rate %,single,Store = Hanoi - Cau Giay,19.8,19.8,0.1,match,,,
+Store Scorecard,Stores,Sales per sqm,edge,Store = Bac Ninh (outlet),20.5,20.5,0.1,match,,,
+Inventory Aging,Stock,Weeks of Cover,none,,6.1,6.1,0.1,match,,,
+Inventory Aging,Stock,Weeks of Cover,edge,"Month = 2025-04, Season = FW",14.0,,0.1,open,"Power BI returns 13.6: Tableau used month-average stock, Power BI uses month-end snapshot. Decision pending with Duc Nguyen",,
