@@ -42,13 +42,13 @@ Who it is for: the analyst or small BI team handed "move these 40 dashboards by 
 5. **Users do not switch because the new report exists.** They switch when the old one is read-only,
    the new one is in their Teams channel, and someone has sat with them for twenty minutes.
 
-## Results from the migrations this is based on
+## What "done" looked like on these projects
 
-- 40+ dashboards across sales, marketing and operations for retail and e-commerce SMEs
-- Typical visual load time from **9–12 s (Tableau extract) to under 2 s** after remodelling
-  ([05_performance](05_performance/README.md) lists exactly what moved the needle)
-- 100% of KPIs reconciled to the Tableau source at sign-off; the 3–4 differences per project that
-  *should* exist (fixed Tableau bugs, changed definitions) documented rather than reproduced
+- Every migrated KPI either matched the Tableau source at sign-off or had its difference explained
+  and accepted in writing — a fixed Tableau bug or a changed definition is documented, not reproduced
+- Report pages under an agreed load-time budget, measured with Performance Analyzer
+  ([05_performance](05_performance/README.md) lists what moved the needle, in order)
+- Tableau switched to read-only during the parallel run and retired once usage moved
 
 ## How to use this repository
 
